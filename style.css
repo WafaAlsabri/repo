@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    direction: rtl; /* لتوجيه النص من اليمين إلى اليسار */
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.search-bar {
+    text-align: center;
+    margin: 20px;}
+
+
+.search-bar input[type="text"] {
+width: 60%;
+padding: 10px;
+margin-top: 10px;
+}
+
+.search-bar button {
+padding: 10px 20px;
+background-color: #007bff;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.search-bar button:hover {
+background-color: #0056b3;
+}
+
+.overview, .services, .featured-offers, .quick-links {
+padding: 20px;
+text-align: center;
+}
+
+footer {
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px 0;
+position: relative;
+bottom: 0;
+width: 100%;
+}
+
+ul {
+padding: 0;
+}
+
+li {
+list-style-type: none; /* إزالة نقاط القائمة /
+padding: 8px; / تباعد العناصر */
+}
+
+.quick-links a {
+display: inline-block;
+color: #007bff;
+text-decoration: none;
+margin: 10px;
+}
+
+.quick-links a:hover {
+text-decoration: underline;
+}
